@@ -1,4 +1,4 @@
-function daet(year, month, day) {
+function date(year, month, day) {
   if (year === 1) {
     year = 1901;
   }
@@ -9,4 +9,4 @@ function daet(year, month, day) {
   }
   console.log(`${year}-${month}-${day}`);
 }
-daet(1, 1, 1);
+date(1, 1, 1);
